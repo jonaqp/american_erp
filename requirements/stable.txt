@@ -44,7 +44,7 @@ coverage
 pep8
 pyflakes
 pylint
-
+rest_framework
 
 
 
