@@ -51,7 +51,7 @@ LOCAL_APPS = (
     'apps.taller',
 )
 THIRD_PARTY_APPS = (
-    'rest_framework',
+
 )
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS

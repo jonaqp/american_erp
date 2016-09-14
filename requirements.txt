@@ -1,5 +1,5 @@
 #Core
-Django
+Django==1.9
 
 # WSGI HTTP Server
 gunicorn
