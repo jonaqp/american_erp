@@ -2,7 +2,7 @@
 Django
 
 # WSGI HTTP Server
-#gunicorn
+gunicorn
 
 
 # Debugging
@@ -45,6 +45,7 @@ pep8
 pyflakes
 pylint
 djangorestframework
+django-toolbelt
 
 
 
