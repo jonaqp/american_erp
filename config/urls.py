@@ -14,7 +14,6 @@ urlpatterns += i18n_patterns(
     url(r'^', include('apps.dashboard.urls')),
     url(r'^admin/', include('apps.client.urls')),
     url(r'^admin/', include('apps.taller.urls')),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(settings.ADMIN_URL, include(admin.site.urls)),
 )
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
