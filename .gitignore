@@ -97,5 +97,5 @@ ENV/
 .idea/workspace.xml
 
 node_modules
-#django_erp/static/themes/global/
-#/django_erp/static/themes/global/
+django_erp/static/themes/global/
+/django_erp/static/themes/global/
