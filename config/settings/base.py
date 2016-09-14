@@ -129,6 +129,8 @@ LOCALE_PATHS = (
     str(PROJECT_ROOT.path('locale')),
 )
 
+SITE_ID = 1
+
 TIME_ZONE = 'America/Lima'
 
 USE_I18N = True
@@ -147,6 +149,7 @@ MEDIA_ROOT = str(PROJECT_ROOT.path('run/media'))
 STATICFILES_DIRS = [
     str(PROJECT_ROOT.path('static')),
 ]
+print(STATICFILES_DIRS)
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',

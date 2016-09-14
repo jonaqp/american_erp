@@ -9,6 +9,9 @@ urlpatterns = [
     url(r'^', include('apps.customer.urls')),
     url(settings.ADMIN_URL, include(admin.site.urls)),
 ]
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
 
 urlpatterns += i18n_patterns(
     url(r'^', include('apps.dashboard.urls')),
@@ -16,8 +19,7 @@ urlpatterns += i18n_patterns(
     url(r'^admin/', include('apps.taller.urls')),
     url(settings.ADMIN_URL, include(admin.site.urls)),
 )
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
 if settings.DEBUG:
     import debug_toolbar
 

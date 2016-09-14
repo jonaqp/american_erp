@@ -1,8 +1,17 @@
-#Core
+
+
+#logging
+
+
+
+#format code
+pep8
+pyflakes
+pylint#Core
 Django
 
 # WSGI HTTP Server
-gunicorn
+#gunicorn
 
 
 # Debugging
@@ -25,8 +34,8 @@ django-redis
 
 
 # Staticfiles
-#django-storages
-#boto
+django-storages
+boto
 
 
 #Documentation
@@ -36,16 +45,6 @@ django-redis
 #testing
 coverage
 
-#logging
-
-
-
-#format code
-pep8
-pyflakes
-pylint
-djangorestframework
-django-toolbelt
 
 
 
