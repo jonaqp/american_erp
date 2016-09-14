@@ -5,8 +5,9 @@ from os.path import basename
 import environ
 from django.utils.translation import ugettext_lazy as _
 
-CONFIG_ROOT = environ.Path(__file__) - 1
-PROJECT_ROOT = environ.Path(__file__) - 2
+CONFIG_ROOT = environ.Path(__file__) - 2
+PROJECT_ROOT = environ.Path(__file__) - 3
+
 APPS_DIR = PROJECT_ROOT.path('apps')
 PROJECT_TEMPLATES = [
     str(PROJECT_ROOT.path('templates')),

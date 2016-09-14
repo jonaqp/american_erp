@@ -5,9 +5,5 @@
   },
   "dependencies": {
     "bower": "latest"
-  },
-  "engines": {
-    "node": "*",
-    "npm": "*"
   }
 }

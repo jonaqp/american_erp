@@ -25,5 +25,10 @@
     "pdfmake": "*",
     "Stuk/jszip": "*",
     "sweetalert": "*"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
 }
