@@ -1,9 +1,13 @@
 {
   "name": "pck_django_erp",
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install & npm install"
   },
   "dependencies": {
     "bower": "latest"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
   }
 }
