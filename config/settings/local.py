@@ -8,6 +8,10 @@ DEBUG = env.bool('DEBUG_LOCAL')
 ALLOWED_HOSTS = ["*"]
 
 TEMPLATES[0]['OPTIONS']['debug'] = DEBUG
+TEMPLATES[0]['OPTIONS']['loaders'] = [
+    ('django.template.loaders.cached.Loader',
+     TEMPLATES[0]['OPTIONS']['loaders']),
+]
 SECRET_KEY = open(SECRET_FILE).read().strip()
 
 # DATABASES = {
@@ -68,3 +72,6 @@ ADMIN_URL = env('ADMIN_URL_LOCAL')
 EMAIL_CONFIG = env.email_url('EMAIL_URL_LOCAL',
                              default='smtp://user@:password@localhost:25')
 vars().update(EMAIL_CONFIG)
+
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

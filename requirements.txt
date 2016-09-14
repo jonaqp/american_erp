@@ -1,4 +1,3 @@
-environ
 #Core
 Django==1.9.9
 
