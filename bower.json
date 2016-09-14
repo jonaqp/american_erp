@@ -4,7 +4,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/jonaqp/american_erp.git"
   },
   "authors": [
     "Jonathan Quiza <jony327@gmail.com>"
@@ -25,10 +25,5 @@
     "pdfmake": "*",
     "Stuk/jszip": "*",
     "sweetalert": "*"
-  },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ]
+  }
 }
