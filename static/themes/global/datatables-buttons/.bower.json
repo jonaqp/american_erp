@@ -22,6 +22,7 @@
     "commit": "3cedb3d6633104c702fd4656849b603f749d99d6"
   },
   "_source": "https://github.com/DataTables/Buttons.git",
-  "_target": "*",
-  "_originalSource": "datatables-buttons"
+  "_target": "^1.2.2",
+  "_originalSource": "datatables-buttons",
+  "_direct": true
 }

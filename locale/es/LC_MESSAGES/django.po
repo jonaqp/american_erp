@@ -1,0 +1,1257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-15 10:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/company/views.py:23
+msgid "list Organization"
+msgstr "Lista Organización"
+
+#: apps/company/views.py:59
+msgid "list Subsidiary"
+msgstr "Lista Sucursal"
+
+#: apps/company/views.py:94
+msgid "list Correlative"
+msgstr "Lista Correlativos"
+
+#: apps/customer/admin.py:77
+#: templates/dashboard/pages/menu/teammenu/teammenu_list.html:32
+msgid "Permissions"
+msgstr "Permisos"
+
+#: apps/customer/forms.py:46 apps/customer/forms.py:168
+msgid "Passwords don't match"
+msgstr "Las contraseñas no coinciden"
+
+#: apps/customer/forms.py:65 apps/customer/forms.py:83
+#: templates/dashboard/pages/customer/user/user_form.html:42
+msgid "Password"
+msgstr "Contraseña"
+
+#: apps/customer/forms.py:66
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"../password/"
+"\">this form</a>."
+msgstr ""
+
+#: apps/customer/forms.py:82
+msgid "Email Address"
+msgstr "Email"
+
+#: apps/customer/forms.py:86
+msgid "Please enter a correct email and password."
+msgstr "Por favor, introduzca un correo electrónico y la contraseña correcta."
+
+#: apps/customer/models.py:30
+msgid "display name"
+msgstr ""
+
+#: apps/customer/models.py:91
+msgid "user"
+msgstr "Usuario"
+
+#: apps/customer/models.py:92
+msgid "users"
+msgstr "Usuarios"
+
+#: apps/customer/models.py:138
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: apps/customer/views.py:72
+msgid "list User"
+msgstr "Lista Usuarios"
+
+#: apps/menu/views.py:23
+msgid "list MenuPermissions"
+msgstr "Lista Permisos Menu"
+
+#: apps/menu/views.py:59
+msgid "list Menu"
+msgstr "Lista Menu"
+
+#: apps/menu/views.py:95
+msgid "list MenuItem"
+msgstr "Lista Opción del menú"
+
+#: apps/menu/views.py:131
+msgid "list TeamMenu"
+msgstr "Lista Group Menu"
+
+#: apps/product/views.py:23
+msgid "list Product Category"
+msgstr "Lista Producto Categoría"
+
+#: apps/product/views.py:59
+msgid "list Product Subcategory"
+msgstr "Lista Producto SubCategoría"
+
+#: apps/product/views.py:95
+msgid "list Product"
+msgstr "Lista Producto"
+
+#: apps/store/apps.py:6
+msgid "store"
+msgstr "Almacén"
+
+#: apps/supplier/views.py:22
+msgid "list Supplier"
+msgstr "Lista Proveedores"
+
+#: apps/supplier/views.py:58
+msgid "list SupplierSubsidiary"
+msgstr "Lista Proveedores con Sucursales"
+
+#: apps/supplier/views.py:94
+msgid "list SupplierProduct"
+msgstr "Lista Proveedores con Producto"
+
+#: apps/taller/apps.py:6
+msgid "taller"
+msgstr "Taller"
+
+#: apps/team/views.py:21
+msgid "list Module"
+msgstr "Lista Módulo"
+
+#: apps/team/views.py:57
+msgid "list Team"
+msgstr "Lista Grupo"
+
+#: apps/vehicle/views.py:25
+msgid "list Vehicle"
+msgstr "Lista Vehículos"
+
+#: apps/zone/views.py:21
+msgid "list Zone"
+msgstr "Lista de Zonas"
+
+#: apps/zone/views.py:57
+msgid "list Country"
+msgstr "Lista de País"
+
+#: apps/zone/views.py:93
+msgid "list State"
+msgstr "Lista de Estado"
+
+#: config/settings/base.py:136
+msgid "Spanish"
+msgstr "Español"
+
+#: core/constants.py:3
+#: templates/dashboard/pages/admin/currency/currency_list.html:19
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:19
+#: templates/dashboard/pages/admin/person/person_list.html:19
+#: templates/dashboard/pages/admin/productbrand/productbrand_list.html:19
+#: templates/dashboard/pages/admin/productmodel/productmodel_list.html:19
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_list.html:19
+#: templates/dashboard/pages/admin/service/service_list.html:19
+#: templates/dashboard/pages/admin/store/store_list.html:19
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_list.html:19
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_list.html:19
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_list.html:19
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_list.html:19
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_list.html:19
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_list.html:19
+#: templates/dashboard/pages/company/correlative/correlative_list.html:19
+#: templates/dashboard/pages/company/subsidiary/subsidiary_list.html:19
+#: templates/dashboard/pages/customer/profile/profile_list.html:19
+#: templates/dashboard/pages/customer/user/user_list.html:19
+#: templates/dashboard/pages/menu/menu/menu_list.html:19
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:19
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_list.html:19
+#: templates/dashboard/pages/menu/teammenu/teammenu_list.html:19
+#: templates/dashboard/pages/product/product/product_list.html:19
+#: templates/dashboard/pages/product/productcategory/productcategory_list.html:19
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_list.html:19
+#: templates/dashboard/pages/supplier/supplier/supplier_list.html:19
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_list.html:19
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_list.html:19
+#: templates/dashboard/pages/team/groupmodule/groupmodule_list.html:19
+#: templates/dashboard/pages/team/module/module_list.html:19
+#: templates/dashboard/pages/team/team/team_list.html:19
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:19
+#: templates/dashboard/pages/zone/country/country_list.html:19
+#: templates/dashboard/pages/zone/state/state_list.html:19
+#: templates/dashboard/pages/zone/zone/zone_list.html:19
+msgid "Create"
+msgstr "Crear Nuevo"
+
+#: core/constants.py:5 core/constants.py:11
+msgid "save and new"
+msgstr "Guardar y Nuevo"
+
+#: core/constants.py:6 core/constants.py:12
+msgid "save and continue"
+msgstr "Guardar y continue"
+
+#: core/constants.py:7 core/constants.py:13
+msgid "Save"
+msgstr "Guardar"
+
+#: core/constants.py:14
+msgid "Delete"
+msgstr "Eliminar"
+
+#: core/constants.py:18
+msgid "yes, Im sure"
+msgstr "Si, Estoy Seguro"
+
+#: core/constants.py:19
+msgid "No, return list"
+msgstr "No, Regresar Listado"
+
+#: core/constants.py:24
+msgid "Data saved correctly"
+msgstr "Información guardado Correctamente"
+
+#: core/constants.py:25
+msgid "There was an error saving information"
+msgstr "Error al guardar la Información"
+
+#: core/constants.py:26
+msgid "It required to complete required fields"
+msgstr "Necesario completar los campos requeridos"
+
+#: core/constants.py:33
+msgid "--Choose--"
+msgstr "--Seleccione--"
+
+#: core/constants.py:38
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: core/constants.py:39
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: core/constants.py:46
+msgid "DNI"
+msgstr "Dni"
+
+#: core/constants.py:47
+msgid "RUC"
+msgstr "Ruc"
+
+#: core/constants.py:48
+msgid "PASSPORT"
+msgstr "Passport"
+
+#: core/constants.py:56
+msgid "Natural"
+msgstr "Natural"
+
+#: core/constants.py:57
+msgid "Legal"
+msgstr "Jurídica"
+
+#: core/constants.py:66
+msgid "Male"
+msgstr "Hombre"
+
+#: core/constants.py:67
+msgid "Female"
+msgstr "Mujer"
+
+#: core/constants.py:78
+msgid "Single"
+msgstr "Soltero"
+
+#: core/constants.py:79
+msgid "Married"
+msgstr "Casado"
+
+#: core/constants.py:80
+msgid "Widowed"
+msgstr "Viudo"
+
+#: core/constants.py:81
+msgid "Divorced"
+msgstr "Divorciado"
+
+#: core/constants.py:82
+msgid "Separated"
+msgstr "Separado"
+
+#: core/constants.py:91
+msgid "A1"
+msgstr ""
+
+#: core/constants.py:92
+msgid "A2"
+msgstr ""
+
+#: core/constants.py:105
+msgid "ONP"
+msgstr ""
+
+#: core/constants.py:106
+msgid "AFP"
+msgstr ""
+
+#: core/constants.py:107
+msgid "ESSALUD"
+msgstr ""
+
+#: core/constants.py:108
+msgid "EPS"
+msgstr ""
+
+#: core/constants.py:109
+msgid "SCTR-SALUD"
+msgstr ""
+
+#: core/constants.py:110
+msgid "SCTR-PENSION"
+msgstr ""
+
+#: core/constants.py:125
+msgid "VIA URBANA"
+msgstr ""
+
+#: core/constants.py:126
+msgid "VIA INTER-URBANA"
+msgstr ""
+
+#: core/constants.py:127 core/constants.py:129 core/constants.py:145
+msgid "VIA TRAVESIA"
+msgstr ""
+
+#: core/constants.py:128
+msgid "VIA CARRETERA"
+msgstr ""
+
+#: core/constants.py:130
+msgid "VIA AUTO-PISTA"
+msgstr ""
+
+#: core/constants.py:131
+msgid "VIA PEAJE"
+msgstr ""
+
+#: core/constants.py:143
+msgid "ZONA RESIDENCIAL"
+msgstr ""
+
+#: core/constants.py:144
+msgid "ZONA COMERCIAL"
+msgstr ""
+
+#: core/constants.py:158
+msgid "MUY_BAJA"
+msgstr ""
+
+#: core/constants.py:159
+msgid "BAJA"
+msgstr ""
+
+#: core/constants.py:160
+msgid "MEDIA"
+msgstr ""
+
+#: core/constants.py:161
+msgid "ALTA"
+msgstr ""
+
+#: core/constants.py:162
+msgid "MUY_ALTA"
+msgstr ""
+
+#: core/constants.py:173
+msgid "Hijo"
+msgstr ""
+
+#: core/constants.py:174
+msgid "esposo(a)"
+msgstr ""
+
+#: core/constants.py:175
+msgid "conviviente"
+msgstr ""
+
+#: core/constants.py:185
+msgid "Certificado"
+msgstr ""
+
+#: core/constants.py:186 core/constants.py:209
+msgid "Boleta"
+msgstr ""
+
+#: core/constants.py:187
+msgid "Planilla"
+msgstr ""
+
+#: core/constants.py:196
+msgid "Con antecendentes"
+msgstr ""
+
+#: core/constants.py:197
+msgid "Sin antecendentes"
+msgstr ""
+
+#: core/constants.py:208
+msgid "Factura"
+msgstr ""
+
+#: core/constants.py:210
+msgid "Cotizacion"
+msgstr ""
+
+#: core/constants.py:211
+msgid "Checklist"
+msgstr ""
+
+#: core/constants.py:222
+msgid "Toxicologico"
+msgstr ""
+
+#: core/constants.py:223
+msgid "Alcoholemia"
+msgstr ""
+
+#: core/constants.py:224
+msgid "Toxicológico/Alcoholemia"
+msgstr ""
+
+#: core/constants.py:233
+msgid "Negative"
+msgstr "Negativo"
+
+#: core/constants.py:234
+msgid "Positive"
+msgstr "Positivo"
+
+#: core/constants.py:246
+msgid "PURCHASE LIQUID UNIT"
+msgstr "UNIDAD COMPRA LIQUIDO"
+
+#: core/constants.py:247
+msgid "PURCHASE SOLID UNIT"
+msgstr "UNIDAD COMPRA SOLIDO"
+
+#: core/constants.py:248
+msgid "TRANSPORT UNIT"
+msgstr "UNIDAD TRANSPORTE"
+
+#: core/constants.py:249
+msgid "DELIVERY UNIT"
+msgstr "UNIDAD ENTREGA"
+
+#: core/constants.py:250
+msgid "STORAGE UNIT"
+msgstr "UNIDAD ALMACENAMIENTO"
+
+#: core/constants.py:261
+msgid "LIGHTWEIGHT"
+msgstr "Liviano"
+
+#: core/constants.py:262
+msgid "HEAVY"
+msgstr "Pesado"
+
+#: core/mixins.py:59
+msgid "Delete Record"
+msgstr "Eliminar Registro"
+
+#: core/mixins.py:67
+msgid "Update Record"
+msgstr "Actualizar Registro"
+
+#: core/mixins.py:75
+msgid "Create Record"
+msgstr "Crear Registro"
+
+#: core/utils/fields.py:16
+msgid "date created"
+msgstr "F. Creada"
+
+#: core/utils/fields.py:19
+msgid "date modified"
+msgstr "F. Modificada"
+
+#: core/views.py:23
+msgid "list UnitMeasurement"
+msgstr "Listado de Mediciones"
+
+#: core/views.py:59
+msgid "list VehicleEnrollment"
+msgstr "Lista de Inscripción de Vehículos"
+
+#: core/views.py:95
+msgid "list VehicleBrand"
+msgstr "Lista Marca de Vehículos"
+
+#: core/views.py:131
+msgid "list VehicleModel"
+msgstr "Lista Modelo de Vehículos"
+
+#: core/views.py:167
+msgid "list VehicleFuel"
+msgstr "Lista Combustible de Vehículos"
+
+#: core/views.py:203
+msgid "list VehicleInventory"
+msgstr "Lista Inventario del Vehículos"
+
+#: core/views.py:239
+msgid "list PurchaseCondition"
+msgstr "Lista condición de compra"
+
+#: core/views.py:275
+msgid "list ProductBrand"
+msgstr "Lista Marca de Producto"
+
+#: core/views.py:311
+msgid "list ProductModel"
+msgstr "Lista Modelo de Producto"
+
+#: core/views.py:347
+msgid "list Currency"
+msgstr "Lista Moneda"
+
+#: core/views.py:383
+msgid "list ExchangeRate"
+msgstr "Lista Tipo de Cambio"
+
+#: core/views.py:419
+msgid "list Service"
+msgstr "Lista Servicios"
+
+#: core/views.py:455
+msgid "list Store"
+msgstr "Lista Almacén"
+
+#: core/views.py:491
+msgid "list Person"
+msgstr "Lista Clientes"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:21
+#: templates/dashboard/pages/admin/currency/currency_list.html:30
+msgid "Sk"
+msgstr "Sk"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:26
+#: templates/dashboard/pages/admin/currency/currency_list.html:31
+#: templates/dashboard/pages/zone/country/country_form.html:31
+#: templates/dashboard/pages/zone/country/country_list.html:32
+msgid "Code"
+msgstr "Codigo"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:31
+#: templates/dashboard/pages/admin/currency/currency_list.html:32
+#: templates/dashboard/pages/admin/productbrand/productbrand_form.html:21
+#: templates/dashboard/pages/admin/productbrand/productbrand_list.html:30
+#: templates/dashboard/pages/admin/productmodel/productmodel_form.html:26
+#: templates/dashboard/pages/admin/productmodel/productmodel_list.html:31
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_form.html:21
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_list.html:30
+#: templates/dashboard/pages/admin/service/service_form.html:21
+#: templates/dashboard/pages/admin/service/service_list.html:30
+#: templates/dashboard/pages/admin/store/store_form.html:22
+#: templates/dashboard/pages/admin/store/store_list.html:30
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_form.html:26
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_list.html:31
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_form.html:21
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_list.html:30
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_form.html:21
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_list.html:31
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_form.html:21
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_list.html:30
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_form.html:26
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_list.html:31
+#: templates/dashboard/pages/customer/user/user_list.html:30
+#: templates/dashboard/pages/menu/menu/menu_form.html:31
+#: templates/dashboard/pages/menu/menu/menu_list.html:30
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:26
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:31
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_form.html:31
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_list.html:30
+#: templates/dashboard/pages/product/product/product_form.html:41
+#: templates/dashboard/pages/product/product/product_list.html:32
+#: templates/dashboard/pages/product/productcategory/productcategory_form.html:21
+#: templates/dashboard/pages/product/productcategory/productcategory_list.html:30
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_form.html:26
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_list.html:31
+#: templates/dashboard/pages/team/module/module_form.html:29
+#: templates/dashboard/pages/team/module/module_list.html:30
+#: templates/dashboard/pages/team/team/team_form.html:27
+#: templates/dashboard/pages/team/team/team_list.html:30
+#: templates/dashboard/pages/zone/country/country_form.html:26
+#: templates/dashboard/pages/zone/country/country_list.html:31
+#: templates/dashboard/pages/zone/state/state_form.html:39
+#: templates/dashboard/pages/zone/state/state_list.html:32
+#: templates/dashboard/pages/zone/zone/zone_form.html:21
+#: templates/dashboard/pages/zone/zone/zone_list.html:30
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:39
+msgid "is fund"
+msgstr "Es Costeado"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:43
+msgid "is complimentary"
+msgstr "Es Complementario"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:47
+msgid "is metal"
+msgstr "Es Metal"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:52
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:48
+#: templates/dashboard/pages/admin/person/person_form.html:72
+#: templates/dashboard/pages/admin/productbrand/productbrand_form.html:27
+#: templates/dashboard/pages/admin/productmodel/productmodel_form.html:32
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_form.html:27
+#: templates/dashboard/pages/admin/service/service_form.html:27
+#: templates/dashboard/pages/admin/store/store_form.html:33
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_form.html:37
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_form.html:27
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_form.html:27
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_form.html:27
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_form.html:27
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_form.html:32
+#: templates/dashboard/pages/company/correlative/correlative_form.html:79
+#: templates/dashboard/pages/company/organization/organization_form.html:69
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:57
+#: templates/dashboard/pages/customer/profile/profile_form.html:37
+#: templates/dashboard/pages/customer/user/user_form.html:184
+#: templates/dashboard/pages/menu/menu/menu_form.html:62
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:51
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_form.html:38
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:95
+#: templates/dashboard/pages/product/product/product_form.html:111
+#: templates/dashboard/pages/product/productcategory/productcategory_form.html:27
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_form.html:32
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:87
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_form.html:34
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_form.html:34
+#: templates/dashboard/pages/team/groupmodule/groupmodule_form.html:37
+#: templates/dashboard/pages/team/module/module_form.html:40
+#: templates/dashboard/pages/team/team/team_form.html:37
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:230
+#: templates/dashboard/pages/zone/country/country_form.html:47
+#: templates/dashboard/pages/zone/state/state_form.html:44
+#: templates/dashboard/pages/zone/zone/zone_form.html:27
+msgid "Back"
+msgstr "Atras"
+
+#: templates/dashboard/pages/admin/currency/currency_form.html:53
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:49
+#: templates/dashboard/pages/admin/person/person_form.html:73
+#: templates/dashboard/pages/admin/productbrand/productbrand_form.html:28
+#: templates/dashboard/pages/admin/productmodel/productmodel_form.html:33
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_form.html:28
+#: templates/dashboard/pages/admin/service/service_form.html:28
+#: templates/dashboard/pages/admin/store/store_form.html:34
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_form.html:38
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_form.html:28
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_form.html:28
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_form.html:28
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_form.html:28
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_form.html:33
+#: templates/dashboard/pages/company/correlative/correlative_form.html:80
+#: templates/dashboard/pages/company/organization/organization_form.html:70
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:58
+#: templates/dashboard/pages/customer/profile/profile_form.html:38
+#: templates/dashboard/pages/customer/user/user_form.html:185
+#: templates/dashboard/pages/menu/menu/menu_form.html:63
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:52
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_form.html:39
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:96
+#: templates/dashboard/pages/product/product/product_form.html:112
+#: templates/dashboard/pages/product/productcategory/productcategory_form.html:28
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_form.html:33
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:88
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_form.html:35
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_form.html:35
+#: templates/dashboard/pages/team/groupmodule/groupmodule_form.html:38
+#: templates/dashboard/pages/team/module/module_form.html:41
+#: templates/dashboard/pages/team/team/team_form.html:38
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:231
+#: templates/dashboard/pages/zone/country/country_form.html:48
+#: templates/dashboard/pages/zone/state/state_form.html:45
+#: templates/dashboard/pages/zone/zone/zone_form.html:28
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/dashboard/pages/admin/currency/currency_list.html:33
+msgid "is_fund"
+msgstr "Es Costeado"
+
+#: templates/dashboard/pages/admin/currency/currency_list.html:34
+msgid "is_complimentary"
+msgstr "Es Complementario"
+
+#: templates/dashboard/pages/admin/currency/currency_list.html:35
+msgid "is_metal"
+msgstr "Es Metal"
+
+#: templates/dashboard/pages/admin/currency/currency_list.html:36
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:34
+#: templates/dashboard/pages/admin/person/person_list.html:35
+#: templates/dashboard/pages/admin/productbrand/productbrand_list.html:31
+#: templates/dashboard/pages/admin/productmodel/productmodel_list.html:32
+#: templates/dashboard/pages/admin/purchasecondition/purchasecondition_list.html:31
+#: templates/dashboard/pages/admin/service/service_list.html:31
+#: templates/dashboard/pages/admin/store/store_list.html:32
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_list.html:33
+#: templates/dashboard/pages/admin/vehiclebrand/vehiclebrand_list.html:31
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_list.html:31
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_list.html:32
+#: templates/dashboard/pages/admin/vehicleinventory/vehicleinventory_list.html:31
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_list.html:32
+#: templates/dashboard/pages/company/correlative/correlative_list.html:33
+#: templates/dashboard/pages/company/organization/organization_list.html:35
+#: templates/dashboard/pages/company/subsidiary/subsidiary_list.html:33
+#: templates/dashboard/pages/customer/profile/profile_list.html:32
+#: templates/dashboard/pages/customer/user/user_list.html:31
+#: templates/dashboard/pages/menu/menu/menu_list.html:33
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:34
+#: templates/dashboard/pages/menu/menupermissions/menupermissions_list.html:31
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:70
+#: templates/dashboard/pages/menu/teammenu/teammenu_list.html:33
+#: templates/dashboard/pages/product/product/product_list.html:33
+#: templates/dashboard/pages/product/productcategory/productcategory_list.html:31
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_list.html:32
+#: templates/dashboard/pages/supplier/supplier/supplier_list.html:33
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_list.html:31
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_list.html:32
+#: templates/dashboard/pages/team/groupmodule/groupmodule_list.html:32
+#: templates/dashboard/pages/team/module/module_list.html:31
+#: templates/dashboard/pages/team/team/team_list.html:32
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:205
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:35
+#: templates/dashboard/pages/zone/country/country_list.html:35
+#: templates/dashboard/pages/zone/state/state_list.html:33
+#: templates/dashboard/pages/zone/zone/zone_list.html:31
+msgid "Action"
+msgstr "Accion"
+
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:22
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:30
+msgid "Currency"
+msgstr "Moneda"
+
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:27
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:31
+msgid "Exchange Rate"
+msgstr "Tipo Cambio"
+
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:32
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:32
+msgid "Start Date"
+msgstr "Fecha Inicial"
+
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_form.html:40
+#: templates/dashboard/pages/admin/exchangerate/exchangerate_list.html:33
+msgid "End Date"
+msgstr "Fecha Final"
+
+#: templates/dashboard/pages/admin/person/person_form.html:21
+#: templates/dashboard/pages/admin/person/person_list.html:30
+#: templates/dashboard/pages/customer/user/user_form.html:51
+msgid "First Name"
+msgstr "Nombre"
+
+#: templates/dashboard/pages/admin/person/person_form.html:26
+#: templates/dashboard/pages/customer/user/user_form.html:69
+msgid "Last Name"
+msgstr "Apellido"
+
+#: templates/dashboard/pages/admin/person/person_form.html:31
+#: templates/dashboard/pages/admin/person/person_list.html:31
+#: templates/dashboard/pages/customer/user/user_form.html:33
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: templates/dashboard/pages/admin/person/person_form.html:36
+#: templates/dashboard/pages/customer/user/user_form.html:113
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:57
+msgid "Home Phone"
+msgstr "Teléfono"
+
+#: templates/dashboard/pages/admin/person/person_form.html:41
+#: templates/dashboard/pages/admin/person/person_list.html:32
+#: templates/dashboard/pages/company/organization/organization_form.html:63
+#: templates/dashboard/pages/company/organization/organization_list.html:34
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:51
+#: templates/dashboard/pages/customer/user/user_form.html:130
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:73
+msgid "Mobile Phone"
+msgstr "Celular"
+
+#: templates/dashboard/pages/admin/person/person_form.html:46
+#: templates/dashboard/pages/company/organization/organization_form.html:27
+#: templates/dashboard/pages/customer/user/user_form.html:105
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:32
+#: templates/dashboard/pages/supplier/supplier/supplier_list.html:31
+msgid "Document Type"
+msgstr "Tipo Documento"
+
+#: templates/dashboard/pages/admin/person/person_form.html:51
+#: templates/dashboard/pages/company/organization/organization_form.html:32
+#: templates/dashboard/pages/customer/user/user_form.html:122
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:48
+#: templates/dashboard/pages/supplier/supplier/supplier_list.html:32
+msgid "Document Number"
+msgstr "Número Documento"
+
+#: templates/dashboard/pages/admin/person/person_form.html:56
+msgid "Person Tribute"
+msgstr "Persona Tributaria"
+
+#: templates/dashboard/pages/admin/person/person_form.html:63
+msgid "client"
+msgstr "Cliente"
+
+#: templates/dashboard/pages/admin/person/person_form.html:68
+msgid "taxi driver"
+msgstr "Chofer"
+
+#: templates/dashboard/pages/admin/person/person_list.html:33
+msgid "Is client"
+msgstr "Es Cliente"
+
+#: templates/dashboard/pages/admin/person/person_list.html:34
+msgid "Is Taxi Driver"
+msgstr "Es Chofer"
+
+#: templates/dashboard/pages/admin/productmodel/productmodel_form.html:21
+#: templates/dashboard/pages/admin/productmodel/productmodel_list.html:30
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_form.html:21
+#: templates/dashboard/pages/admin/vehiclemodel/vehiclemodel_list.html:30
+#: templates/dashboard/pages/product/product/product_form.html:65
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:32
+msgid "Brand"
+msgstr "Marca"
+
+#: templates/dashboard/pages/admin/store/store_list.html:31
+msgid "Is principal"
+msgstr "Es Principal"
+
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_form.html:21
+msgid "Medición"
+msgstr "Medición"
+
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_form.html:31
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_list.html:32
+msgid "Symbol"
+msgstr "Símbolo"
+
+#: templates/dashboard/pages/admin/unitmeasurement/unitmeasurement_list.html:30
+msgid "Type measurement"
+msgstr "Tipo Medición"
+
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_form.html:21
+#: templates/dashboard/pages/admin/vehicleenrollment/vehicleenrollment_list.html:30
+msgid "Year"
+msgstr "Año"
+
+#: templates/dashboard/pages/admin/vehiclefuel/vehiclefuel_list.html:30
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:32
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:30
+msgid "Unit Transport"
+msgstr "Unidad Transporte"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:29
+#: templates/dashboard/pages/company/correlative/correlative_list.html:30
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:21
+#: templates/dashboard/pages/company/subsidiary/subsidiary_list.html:30
+#: templates/dashboard/pages/customer/user/user_form.html:139
+msgid "Organization"
+msgstr "Organización"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:34
+#: templates/dashboard/pages/company/correlative/correlative_list.html:31
+#: templates/dashboard/pages/customer/user/user_form.html:156
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_form.html:27
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_list.html:31
+msgid "Subsidiary"
+msgstr "Sucursal"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:39
+#: templates/dashboard/pages/company/correlative/correlative_list.html:32
+msgid "Type Document"
+msgstr "Tipo Documento"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:44
+msgid "Prefix"
+msgstr "Pre-Fijo"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:49
+msgid "Postfix"
+msgstr "Post-Fijo"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:54
+msgid "Format"
+msgstr "Formato"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:59
+msgid "Initial"
+msgstr "Inicio"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:64
+msgid "Increment"
+msgstr "Incremento"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:69
+msgid "Final"
+msgstr "Final"
+
+#: templates/dashboard/pages/company/correlative/correlative_form.html:74
+msgid "Actual"
+msgstr "Actual"
+
+#: templates/dashboard/pages/company/organization/organization_form.html:22
+#: templates/dashboard/pages/company/organization/organization_list.html:30
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:24
+#: templates/dashboard/pages/supplier/supplier/supplier_list.html:30
+msgid "Business Name"
+msgstr "Nombre Empresa"
+
+#: templates/dashboard/pages/company/organization/organization_form.html:37
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:41
+#: templates/dashboard/pages/customer/user/user_form.html:147
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:41
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/dashboard/pages/company/organization/organization_form.html:42
+#: templates/dashboard/pages/product/product/product_form.html:90
+msgid "Picture"
+msgstr "Foto"
+
+#: templates/dashboard/pages/company/organization/organization_form.html:58
+#: templates/dashboard/pages/company/organization/organization_list.html:33
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:46
+msgid "Phone"
+msgstr "Teléfono"
+
+#: templates/dashboard/pages/company/organization/organization_list.html:31
+msgid "Doc. Type"
+msgstr "Tipo Documento"
+
+#: templates/dashboard/pages/company/organization/organization_list.html:32
+msgid "Doc. Number"
+msgstr "Número Documento"
+
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:26
+#: templates/dashboard/pages/company/subsidiary/subsidiary_list.html:31
+msgid "Subsidiary Name"
+msgstr "Nombre Sucursal"
+
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:31
+#: templates/dashboard/pages/company/subsidiary/subsidiary_list.html:32
+msgid "Store Local"
+msgstr "Almacén local"
+
+#: templates/dashboard/pages/company/subsidiary/subsidiary_form.html:36
+msgid "Representative"
+msgstr "Representante"
+
+#: templates/dashboard/pages/customer/profile/profile_form.html:22
+#: templates/dashboard/pages/customer/user/user_form.html:77
+#: templates/dashboard/pages/team/groupmodule/groupmodule_form.html:22
+#: templates/dashboard/pages/team/module/module_form.html:34
+msgid "Status"
+msgstr "Estado"
+
+#: templates/dashboard/pages/customer/profile/profile_form.html:27
+#: templates/dashboard/pages/customer/profile/profile_list.html:30
+#: templates/dashboard/pages/team/groupmodule/groupmodule_form.html:27
+#: templates/dashboard/pages/team/groupmodule/groupmodule_list.html:30
+msgid "Group"
+msgstr "Grupos"
+
+#: templates/dashboard/pages/customer/profile/profile_form.html:32
+#: templates/dashboard/pages/customer/profile/profile_list.html:31
+#: templates/dashboard/pages/team/groupmodule/groupmodule_form.html:32
+#: templates/dashboard/pages/team/groupmodule/groupmodule_list.html:31
+#: templates/dashboard/pages/team/team/team_form.html:32
+#: templates/dashboard/pages/team/team/team_list.html:31
+msgid "Module"
+msgstr "Módulo"
+
+#: templates/dashboard/pages/customer/user/user_form.html:29
+msgid "User"
+msgstr "Usuario"
+
+#: templates/dashboard/pages/customer/user/user_form.html:60
+msgid "Re-Password"
+msgstr "Repita Contraseña"
+
+#: templates/dashboard/pages/customer/user/user_form.html:84
+msgid "Is Active"
+msgstr "Es Activo"
+
+#: templates/dashboard/pages/customer/user/user_form.html:93
+msgid "Is Admin"
+msgstr "Es Administrador"
+
+#: templates/dashboard/pages/customer/user/user_form.html:101
+msgid "User Detail"
+msgstr "Usuario Detalle"
+
+#: templates/dashboard/pages/customer/user/user_form.html:164
+msgid "Profile Image"
+msgstr "Imagen Profile"
+
+#: templates/dashboard/pages/menu/menu/menu_form.html:38
+#: templates/dashboard/pages/menu/menu/menu_list.html:32
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:36
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:33
+msgid "Order"
+msgstr "Orden"
+
+#: templates/dashboard/pages/menu/menu/menu_form.html:47
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:41
+msgid "Style"
+msgstr "Estilo"
+
+#: templates/dashboard/pages/menu/menu/menu_form.html:54
+#: templates/dashboard/pages/menu/menu/menu_list.html:31
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:46
+msgid "Match"
+msgstr "Match"
+
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:21
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:30
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:38
+#: templates/dashboard/pages/menu/teammenu/teammenu_list.html:31
+msgid "Menu"
+msgstr "Lista Menú"
+
+#: templates/dashboard/pages/menu/menuitem/menuitem_form.html:31
+#: templates/dashboard/pages/menu/menuitem/menuitem_list.html:32
+msgid "Reference"
+msgstr "Referencia"
+
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:33
+#: templates/dashboard/pages/menu/teammenu/teammenu_list.html:30
+msgid "Team"
+msgstr "Grupo"
+
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:45
+msgid "Menu Permissions"
+msgstr "Permisos Menu"
+
+#: templates/dashboard/pages/menu/teammenu/teammenu_form.html:69
+msgid "Menu Item"
+msgstr "Lista Opción del menú"
+
+#: templates/dashboard/pages/product/product/product_form.html:31
+#: templates/dashboard/pages/product/product/product_list.html:30
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_form.html:21
+msgid "Product Category"
+msgstr "P. Categoría"
+
+#: templates/dashboard/pages/product/product/product_form.html:36
+#: templates/dashboard/pages/product/product/product_list.html:31
+msgid "Product SubCategory"
+msgstr "P. Subcategoría"
+
+#: templates/dashboard/pages/product/product/product_form.html:46
+msgid "Origin"
+msgstr "Origen"
+
+#: templates/dashboard/pages/product/product/product_form.html:51
+msgid "Series"
+msgstr "Series"
+
+#: templates/dashboard/pages/product/product/product_form.html:56
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/dashboard/pages/product/product/product_form.html:70
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:33
+msgid "Model"
+msgstr "Modelo"
+
+#: templates/dashboard/pages/product/product/product_form.html:75
+msgid "Unit"
+msgstr "Unidad"
+
+#: templates/dashboard/pages/product/product/product_form.html:80
+msgid "Sale Price"
+msgstr "Precio Venta"
+
+#: templates/dashboard/pages/product/product/product_form.html:85
+msgid "Purchase Price"
+msgstr "Precio Compra"
+
+#: templates/dashboard/pages/product/productsubcategory/productsubcategory_list.html:30
+msgid "Category"
+msgstr "Categoría"
+
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:64
+msgid "Contact Name"
+msgstr "Nombre Contacto"
+
+#: templates/dashboard/pages/supplier/supplier/supplier_form.html:80
+msgid "Phone Contact"
+msgstr "Telf. Contacto"
+
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_form.html:22
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_list.html:30
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_form.html:22
+#: templates/dashboard/pages/supplier/suppliersubsidiary/suppliersubsidiary_list.html:30
+msgid "Supplier"
+msgstr "Proveedores"
+
+#: templates/dashboard/pages/supplier/supplierproduct/supplierproduct_form.html:27
+msgid "Product"
+msgstr "Producto"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:40
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:34
+msgid "Year Car"
+msgstr "Año de Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:49
+msgid "Vehicle Brand"
+msgstr "Marca de Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:57
+msgid "Vehicle plaque"
+msgstr "Placa de Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:66
+msgid "Vehicle model"
+msgstr "Modelo de Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:74
+msgid "Vehicle color"
+msgstr "Color de Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:84
+msgid "Type Vehicle"
+msgstr "Tipo Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:91
+msgid "Serie Motor"
+msgstr "Serie Motor"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:100
+msgid "Soat"
+msgstr "Soat"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:108
+msgid "Expiration Soat"
+msgstr "Expiración Soat"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:121
+msgid "Poliza"
+msgstr "Poliza"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:129
+msgid "Expiration Poliza"
+msgstr "Expiración Poliza"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:141
+msgid "Technical Review"
+msgstr "Revisión Técnica"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:149
+msgid "Expiration Technical Review"
+msgstr "Expiración Revisión Técnica"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:161
+msgid "Opacity Test"
+msgstr "Prueba Opacidad"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:169
+msgid "Expiration Opacity Test"
+msgstr "Expiración Prueba Opacidad"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:181
+msgid "Farenet Test"
+msgstr "Prueba Farenet"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:189
+msgid "Expiration Farenet Test"
+msgstr "Expiración Prueba Farenet"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_form.html:204
+msgid "Image Vehicle"
+msgstr "Imagen Vehículo"
+
+#: templates/dashboard/pages/vehicle/vehicle/vehicle_list.html:31
+msgid "Plaque"
+msgstr "Placa"
+
+#: templates/dashboard/pages/zone/country/country_form.html:21
+#: templates/dashboard/pages/zone/country/country_list.html:30
+#: templates/dashboard/pages/zone/state/state_form.html:29
+#: templates/dashboard/pages/zone/state/state_list.html:30
+msgid "Zone"
+msgstr "Zona"
+
+#: templates/dashboard/pages/zone/country/country_form.html:36
+#: templates/dashboard/pages/zone/country/country_list.html:33
+msgid "State"
+msgstr "Estado"
+
+#: templates/dashboard/pages/zone/country/country_form.html:41
+#: templates/dashboard/pages/zone/country/country_list.html:34
+msgid "Iso Code"
+msgstr "Iso Codigo"
+
+#: templates/dashboard/pages/zone/state/state_form.html:34
+#: templates/dashboard/pages/zone/state/state_list.html:31
+msgid "Country"
+msgstr "País"
+
+#: templates/partials/page-header.html:13
+msgid "Statistics"
+msgstr "Estadística"
+
+#: templates/partials/page-header.html:15
+msgid "Analytics"
+msgstr "Analitica"
+
+#: templates/partials/page-header.html:17
+msgid "Accessibility"
+msgstr "Accesibilidad"
+
+#: templates/registration/login.html:42
+msgid "Please correct the error below."
+msgstr "Por favor, corrija el error a continuación"
+
+#: templates/registration/login.html:42
+msgid "Please correct the errors below."
+msgstr "Por favor, corrija los errores a continuación"
+
+#: templates/registration/login.html:56
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+"Usted está autenticado como %(username)s, pero no está autorizado para "
+"acceder a este Página. ¿Le gustaría iniciar sesión en una cuenta diferente?"
+
+#: templates/registration/login.html:67
+msgid "Login to your account"
+msgstr "Ingrese a su cuenta"
+
+#: templates/registration/login.html:68
+msgid "Enter your credentials below"
+msgstr "Introduzca sus credenciales a continuación"

@@ -1,13 +1,4 @@
-
-
-#logging
-
-
-
-#format code
-pep8
-pyflakes
-pylint#Core
+#Core
 Django
 
 # WSGI HTTP Server
@@ -21,9 +12,9 @@ django-debug-toolbar
 
 
 # Configuration
-#django-sites==0.9
 django-environ
 pytz
+
 
 # Models
 psycopg2
@@ -40,10 +31,19 @@ boto
 
 #Documentation
 #mkdocs
-
+djangorestframework
 
 #testing
 coverage
+
+#logging
+
+
+
+#format code
+pep8
+pyflakes
+pylint
 
 
 

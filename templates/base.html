@@ -1,55 +1,24 @@
 {% extends 'wrapper.html' %}
-{% load static from staticfiles %}
 
-{% block css_plugins %}
-    <link href="http://eliteadmin.themedesigner.in/demos/plugins/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
-    <link href="{% static "themes/global/sweetalert/dist/sweetalert.css" %}" rel="stylesheet" type="text/css">
-
-{% endblock css_plugins %}
-
-
-
-
-
-{% block navbar_top %}
-       {{ block.super }}
-{% endblock navbar_top %}
-
-{% block navbar_left %}
+{% block class_body %}
     {{ block.super }}
-{% endblock navbar_left %}
+{% endblock class_body %}
 
-{% block breadcrumb %}
+{% block header %}
     {{ block.super }}
-{% endblock breadcrumb %}
+{% endblock header %}
 
-{% block container %}
-{% endblock container %}
+{% block content %}
+    {{ block.super }}
+{% endblock content %}
 
 {% block footer %}
     {{ block.super }}
 {% endblock footer %}
 
+{% block js_plugins_after %}
+{% endblock js_plugins_after %}
 
-{% block js_plugins %}
-    <script src="{% static "themes/global/datatables/media/js/jquery.dataTables.min.js" %}"></script>
-    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
-    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
-    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
-
-
-    <script src="{% static "themes/global/sweetalert/dist/sweetalert.min.js" %}"></script>
-{#    <script src="../plugins/bower_components/sweetalert/jquery.sweet-alert.custom.js"></script>#}
-{% endblock js_plugins %}
-
-
-{% block js_app %}
-{% endblock js_app %}
-
-
+{% block js_plugins_before %}
+{% endblock js_plugins_before %}
 
